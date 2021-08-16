@@ -1,0 +1,11 @@
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-primary);
+    color: var(--color-white-action);
+    font-size: 0.9em;
+    text-align: center;
+    margin: 5%;
+    border-radius: 5px;
+}

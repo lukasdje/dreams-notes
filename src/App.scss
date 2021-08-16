@@ -1,0 +1,47 @@
+.App {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 10% 1fr;
+    grid-template-areas: 
+    "Logo Header"
+    "Menu Content";
+    background-color: var(--bg-grey-color);
+    
+}
+
+
+.Menu {
+    grid-area: Menu;
+    
+}
+
+.Header {
+    grid-area: Header;
+}
+
+.Content {
+    grid-area: Content;
+}
+
+.Logo {
+    grid-area: Logo;
+}
+
+
+
+
+
+:root {
+    --bg-primary: #6F52ED;
+    --bg-green-color: #33d69F;
+    --bg-yelow-color: #FFB800;
+    --bg-red-color: #FF4C61;
+    --bg-grey-color: #f8f8fb;
+
+    --color-black-action: #272727;
+    --color-grey-action: #A6AcBE;
+    --color-white-action: #FFFFFF;
+
+
+}

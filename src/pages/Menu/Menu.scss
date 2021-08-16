@@ -1,0 +1,35 @@
+.Menu {
+    height: 100vh;
+    color: var(--color-white-action);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    margin-left: 5%;
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 0%;
+        
+        li {
+            list-style: none;
+            margin: 2% 0%;
+            padding: 7%;
+            
+            a {
+                text-decoration: none;
+                font-size: 0.9em;
+                color: var(--color-grey-action);
+                transition: 0.5ms;
+            }
+
+            a:hover {
+                color: var(--bg-primary);
+            }
+        }
+        
+    }
+}
+
+
+
