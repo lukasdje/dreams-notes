@@ -4,7 +4,7 @@
     grid-template-columns: 15% 1fr;
     grid-template-rows: 10% 1fr;
     grid-template-areas: 
-    "Logo Header"
+    "Header Header"
     "Menu Content";
     background-color: var(--bg-grey-color);
     
@@ -24,9 +24,9 @@
     grid-area: Content;
 }
 
-.Logo {
-    grid-area: Logo;
-}
+// .Logo {
+//     grid-area: Logo;
+// }
 
 
 
