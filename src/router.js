@@ -7,7 +7,7 @@ import Settings from "./pages/Settings"
 const Routes = () => {
     return (
         <Switch>
-            <Route exact path="/" component={Content} />
+            <Route path="/" component={Content} />
             <Route path="/projects" component={Projects} />
             <Route path="/settings" component={Settings} />
         </Switch>
