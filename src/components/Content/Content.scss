@@ -66,4 +66,51 @@
         align-items: center;
         justify-content: center;
     }
+
+    .contentIndicadores .projects div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: var(--bg-blue-color);
+        background-color: #c1e6ff;
+        border-radius: 100%;
+        margin: 3%;
+    }
+    
+    .contentIndicadores .concluido div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: var(--bg-green-color);
+        background-color: #c3ffeb;
+        border-radius: 100%;
+        margin: 3%;
+    }
+    .contentIndicadores .pendentes div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: var(--bg-red-color);
+        background-color: #ffc1c8;
+        border-radius: 100%;
+        margin: 3%;
+    } 
+    
+    .contentIndicadores .percentual div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: var(--bg-yelow-color);
+        background-color: #fce8b5;
+        border-radius: 100%;
+        margin: 3%;
+    }
 }
